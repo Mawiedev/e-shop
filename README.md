@@ -21,10 +21,19 @@ The purpose of this project is to build an e-shop features. The store has a REST
     
 ## Install project
 
-- Download the zip and unzip it
-- Open with your IDE: pom.xml
-- Run it 
+```
+git clone https://github.com/Mawiedev/e-shop.git
+mvn package
+cd target && java -jar E-shop-0.0.1-SNAPSHOT.jar
+```
 
+**Or** 
+
+You can download the JAR file in RELEASE.
+
+```
+java -jar E-shop-0.0.1-SNAPSHOT.jar
+```
 default port is 8080
 
 ## API
